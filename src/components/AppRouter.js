@@ -9,7 +9,7 @@ const AppRouter = () => {
   return user ? (
     <Switch>
       {privateRoutes.map(({ path, Component }) => (
-        <Route path={path} component={Component} exact={true}></Route>
+        <Route key={path} path={path} component={Component} exact={true}></Route>
       ))}
 
       <Redirect to={CHAT_ROUTE}></Redirect>
@@ -17,7 +17,7 @@ const AppRouter = () => {
   ) : (
     <Switch>
       {publicRoutes.map(({ path, Component }) => (
-        <Route path={path} component={Component} exact={true}></Route>
+        <Route key={path} path={path} component={Component} exact={true}></Route>
       ))}
 
       <Redirect to={LOGIN_ROUTE}></Redirect>
