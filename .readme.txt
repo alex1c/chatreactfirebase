@@ -1,0 +1,6 @@
+https://firebase.google.com/codelabs/firebase-web?authuser=0#6
+https://console.firebase.google.com/u/0/project/chat-react-3a851/settings/general/web:YTExNzAyZTItZWMzMC00MDI3LWFmZTYtNGIwMDdjNWRmNjU3
+https://github.com/firebase/codelab-friendlychat-web/blob/main/web/src/index.js
+https://github.com/utimur/firebase_react_messanger/blob/master/src/index.js
+https://github.com/firebase/quickstart-js/blob/master/auth/google-popup.html
+https://github.com/firebase/codelab-friendlychat-web/blob/main/web/src/index.js
